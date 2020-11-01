@@ -2,6 +2,19 @@ body  {
   margin: 20px;
   padding: 0px;
   text-align: center;
+  background-color: black;
+}
+
+h1  {
+  font-family: 'Rokkitt', serif;
+  color: antiquewhite;
+  letter-spacing: 1px;
+}
+
+h2  {
+  font-family: 'Rokkitt', serif;
+  color: antiquewhite;
+  letter-spacing: 2px;
 }
 
 .container  {
@@ -37,8 +50,6 @@ body  {
 
 .gallery-item:hover .image img  {
   transform: scale(1.5);
-  background-color:
-  z-index: 2;
 }
 
 .gallery-item .text  {
@@ -48,16 +59,16 @@ body  {
   left: 50%;
   transform: translate(-50%, -50%);
   color: whitesmoke;
-  font-size: 14px;
+  font-size: 18px;
   pointer-events: none;
   z-index: 4;
   transition: 1.5s ease-in-out;
   background-color: rgba(0, 0, 0, 0.527);
-  width: 70%;
-  height: 70%;
+  width: 80%;
+  height: 80%;
   display: flex;
   align-items: center;
-
+  font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 .gallery-item:hover .text  {
